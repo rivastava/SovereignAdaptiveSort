@@ -1,0 +1,116 @@
+{
+  "runs": [
+    {
+      "sorted_int": 3.021604938271605,
+      "reverse_int": 3.300687285223368,
+      "nearly_sorted_int": 0.9790338401177048,
+      "random_int": 2.12275207112548,
+      "k_runs_int": 0.9541537885173739,
+      "sorted_float": 2.863372093023256,
+      "reverse_float": 3.644,
+      "nearly_sorted_float": 0.904907255224231,
+      "random_float": 0.9469983070712332,
+      "k_runs_float": 1.0084133035362166
+    },
+    {
+      "sorted_int": 2.9706744868035186,
+      "reverse_int": 3.4469273743016755,
+      "nearly_sorted_int": 0.9900800764909764,
+      "random_int": 1.7872280832788723,
+      "k_runs_int": 1.1146052078958422,
+      "sorted_float": 2.342528735632184,
+      "reverse_float": 3.3639921722113506,
+      "nearly_sorted_float": 1.006953223767383,
+      "random_float": 0.9329443562572396,
+      "k_runs_float": 1.0126551707482008
+    },
+    {
+      "sorted_int": 2.969604863221884,
+      "reverse_int": 3.7391304347826084,
+      "nearly_sorted_int": 1.045640501150601,
+      "random_int": 1.8696236559139783,
+      "k_runs_int": 0.9371932804832013,
+      "sorted_float": 2.969230769230769,
+      "reverse_float": 3.4285714285714284,
+      "nearly_sorted_float": 0.9147353012929982,
+      "random_float": 0.9746719280535927,
+      "k_runs_float": 0.9915550510783201
+    },
+    {
+      "sorted_int": 2.631713554987212,
+      "reverse_int": 3.2649903288201156,
+      "nearly_sorted_int": 0.9723496432212029,
+      "random_int": 1.7959838620942599,
+      "k_runs_int": 1.2362550341644418,
+      "sorted_float": 3.1820895522388057,
+      "reverse_float": 2.800658978583196,
+      "nearly_sorted_float": 0.968636473722451,
+      "random_float": 1.2229106248352228,
+      "k_runs_float": 0.9758068135912742
+    },
+    {
+      "sorted_int": 3.170278637770898,
+      "reverse_int": 3.9299610894941632,
+      "nearly_sorted_int": 0.9552370174776814,
+      "random_int": 1.7640906987505784,
+      "k_runs_int": 1.0085482539219972,
+      "sorted_float": 1.6218787158145067,
+      "reverse_float": 3.919607843137255,
+      "nearly_sorted_float": 1.0372864446938521,
+      "random_float": 1.0255585263062492,
+      "k_runs_float": 0.9681160781367394
+    }
+  ],
+  "family_stats": {
+    "k_runs_float": {
+      "mean_speedup_vs_std_sort": 0.9913092834181502,
+      "min_speedup_vs_std_sort": 0.9681160781367394,
+      "max_speedup_vs_std_sort": 1.0126551707482008
+    },
+    "k_runs_int": {
+      "mean_speedup_vs_std_sort": 1.0501511129965713,
+      "min_speedup_vs_std_sort": 0.9371932804832013,
+      "max_speedup_vs_std_sort": 1.2362550341644418
+    },
+    "nearly_sorted_float": {
+      "mean_speedup_vs_std_sort": 0.9665037397401831,
+      "min_speedup_vs_std_sort": 0.904907255224231,
+      "max_speedup_vs_std_sort": 1.0372864446938521
+    },
+    "nearly_sorted_int": {
+      "mean_speedup_vs_std_sort": 0.9884682156916332,
+      "min_speedup_vs_std_sort": 0.9552370174776814,
+      "max_speedup_vs_std_sort": 1.045640501150601
+    },
+    "random_float": {
+      "mean_speedup_vs_std_sort": 1.0206167485047075,
+      "min_speedup_vs_std_sort": 0.9329443562572396,
+      "max_speedup_vs_std_sort": 1.2229106248352228
+    },
+    "random_int": {
+      "mean_speedup_vs_std_sort": 1.8679356742326338,
+      "min_speedup_vs_std_sort": 1.7640906987505784,
+      "max_speedup_vs_std_sort": 2.12275207112548
+    },
+    "reverse_float": {
+      "mean_speedup_vs_std_sort": 3.431366084500646,
+      "min_speedup_vs_std_sort": 2.800658978583196,
+      "max_speedup_vs_std_sort": 3.919607843137255
+    },
+    "reverse_int": {
+      "mean_speedup_vs_std_sort": 3.5363393025243863,
+      "min_speedup_vs_std_sort": 3.2649903288201156,
+      "max_speedup_vs_std_sort": 3.9299610894941632
+    },
+    "sorted_float": {
+      "mean_speedup_vs_std_sort": 2.595819973187904,
+      "min_speedup_vs_std_sort": 1.6218787158145067,
+      "max_speedup_vs_std_sort": 3.1820895522388057
+    },
+    "sorted_int": {
+      "mean_speedup_vs_std_sort": 2.9527752962110236,
+      "min_speedup_vs_std_sort": 2.631713554987212,
+      "max_speedup_vs_std_sort": 3.170278637770898
+    }
+  }
+}

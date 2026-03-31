@@ -1,0 +1,50 @@
+META	benchmark	SovereignAdaptiveSort-v2
+META	leaf_threshold	16
+META	minrun	32
+META	max_run_ratio	0.03
+META	int_quick_sample_pairs	4
+META	float_quick_sample_pairs	2
+META	full_sample_pairs	64
+META	int_quick_run_min_ratio	0.5
+META	int_quick_run_max_ratio	0.68
+META	int_quick_run_max_inv_ratio	0.4
+META	int_quick_run_max_direction_changes	3
+META	float_quick_run_min_ratio	0.6
+META	float_quick_run_max_ratio	0.75
+META	float_quick_run_max_inv_ratio	0.3
+META	float_quick_run_max_direction_changes	1
+META	run_gate_min_ratio	0.12
+META	run_gate_max_ratio	0.28
+META	run_gate_max_inv_ratio	0.2
+META	run_gate_max_direction_changes	18
+META	int_stable_sort_min_inv_ratio	0.35
+RESULT	std::sort	sorted_int	int	20	698368	35324.850	1.012	1
+RESULT	std::stable_sort	sorted_int	int	20	698368	198362.450	5.681	1
+RESULT	SovereignAdaptiveSort	sorted_int	int	20	698368	17727.000	0.508	1
+RESULT	std::sort	reverse_int	int	20	698368	86989.700	2.491	1
+RESULT	std::stable_sort	reverse_int	int	20	698368	362829.250	10.391	1
+RESULT	SovereignAdaptiveSort	reverse_int	int	20	698368	19087.400	0.547	1
+RESULT	std::sort	nearly_sorted_int	int	20	698368	405733.350	11.619	1
+RESULT	std::stable_sort	nearly_sorted_int	int	20	698368	535058.450	15.323	1
+RESULT	SovereignAdaptiveSort	nearly_sorted_int	int	20	698368	413743.900	11.849	1
+RESULT	std::sort	random_int	int	20	698368	862227.250	24.693	1
+RESULT	std::stable_sort	random_int	int	20	698368	417812.500	11.965	1
+RESULT	SovereignAdaptiveSort	random_int	int	20	698368	477323.000	13.670	1
+RESULT	std::sort	k_runs_int	int	20	698368	965548.000	27.652	1
+RESULT	std::stable_sort	k_runs_int	int	20	698368	488847.750	14.000	1
+RESULT	SovereignAdaptiveSort	k_runs_int	int	20	698368	862110.450	24.689	1
+RESULT	std::sort	sorted_float	float	20	698368	38485.350	1.102	1
+RESULT	std::stable_sort	sorted_float	float	20	698368	807358.450	23.121	1
+RESULT	SovereignAdaptiveSort	sorted_float	float	20	698368	25266.600	0.724	1
+RESULT	std::sort	reverse_float	float	20	698368	61383.150	1.758	1
+RESULT	std::stable_sort	reverse_float	float	20	698368	1947374.950	55.769	1
+RESULT	SovereignAdaptiveSort	reverse_float	float	20	698368	22675.000	0.649	1
+RESULT	std::sort	nearly_sorted_float	float	20	698368	335581.450	9.610	1
+RESULT	std::stable_sort	nearly_sorted_float	float	20	698368	1614239.550	46.229	1
+RESULT	SovereignAdaptiveSort	nearly_sorted_float	float	20	698368	338741.700	9.701	1
+RESULT	std::sort	random_float	float	20	698368	963416.600	27.591	1
+RESULT	std::stable_sort	random_float	float	20	698368	2511620.950	71.928	1
+RESULT	SovereignAdaptiveSort	random_float	float	20	698368	836887.400	23.967	1
+RESULT	std::sort	k_runs_float	float	20	698368	1103570.800	31.604	1
+RESULT	std::stable_sort	k_runs_float	float	20	698368	1371406.350	39.275	1
+RESULT	SovereignAdaptiveSort	k_runs_float	float	20	698368	1031097.900	29.529	1
